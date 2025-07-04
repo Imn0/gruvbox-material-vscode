@@ -29,7 +29,7 @@
         "macro:rust": "#89b482",
         "namespace:rust": "#d3869b",
         "selfKeyword": "#d3869b",
-		"selfParameter": "#d3869b"
+        "selfParameter": "#d3869b"
     },
     "colors": {
         "foreground": "#a89984",
@@ -645,21 +645,20 @@
                 "foreground": "#ea6962"
             }
         },
-        
         {
             "name": "Terminator",
-            "scope": "punctuation.terminator",
+            "scope": "punctuation.terminator, constant.character.escape.line-continuation",
             "settings": {
                 "foreground": "#7c6f64"
             }
         },
-		{
-			"name": "Cmake",
+        {
+            "name": "Cmake",
             "scope": "keyword.cmake",
             "settings": {
                 "foreground": "#a9b665"
             }
-		},
+        },
         {
             "name": "Delimiter",
             "scope": "punctuation, meta.brace, meta.delimiter, meta.bracket",
