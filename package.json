@@ -1,0 +1,22 @@
+{
+  "name": "gruvbox-material-imno",
+  "publisher": "imno",
+  "displayName": "Gruvbox Material imno",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gruvbox Material imno",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gruvbox Material imno-color-theme.json"
+      }
+    ]
+  }
+}
