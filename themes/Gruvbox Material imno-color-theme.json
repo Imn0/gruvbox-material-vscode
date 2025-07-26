@@ -12,8 +12,8 @@
         "function": "#89b482",
         "comment": "#928374",
         "macro": "#d3869b",
-        "namespace": "#d3869b",
-        "variable": "#d8a657",
+        "namespace": "#d8a657",
+        "variable": "#D4BE98",
         "number": "#d3869b",
         "type": "#d8a657",
         "string": "#89B482",
@@ -26,7 +26,9 @@
         "interface": "#A9B665",
         "formatSpecifier": "#7daea3",
         "builtinAttribute": "#d3869b",
-        "decorator": "#d3869b"
+        "decorator": "#d3869b",
+        "selfKeyword": "#d3869b",
+        "enumMember": "#7daea3"
     },
     "colors": {
         "sideBar.border":"#000000",
@@ -617,7 +619,7 @@
         },
         {
             "name": "Identifier",
-            "scope": "variable, support.variable, meta.definition.variable",
+            "scope": "variable, support.variable, meta.definition.variable, constant.other.caps.rust",
             "settings": {
                 "foreground": "#d4be98"
             }
