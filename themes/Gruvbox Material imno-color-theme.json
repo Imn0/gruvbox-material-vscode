@@ -28,6 +28,7 @@
         "builtinAttribute": "#d3869b",
         "decorator": "#d3869b",
         "selfKeyword": "#d3869b",
+        "selfParameter":"#d3869b",
         "enumMember": "#7daea3"
     },
     "colors": {
