@@ -29,7 +29,9 @@
         "decorator": "#d3869b",
         "selfKeyword": "#d3869b",
         "selfParameter":"#d3869b",
-        "enumMember": "#7daea3"
+        "enumMember": "#7daea3",
+        "tomlArrayKey": "#7DAEA3",
+        "tomlTableKey": "#7DAEA3"
     },
     "colors": {
         "sideBar.border":"#000000",
@@ -645,6 +647,13 @@
             "scope": "storage.type.struct",
             "settings": {
                 "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "toml",
+            "scope": "support.type.property-name.toml, support.type.property-name.table.toml, support.type.property-name.array.toml",
+            "settings": {
+                "foreground": "#7DAEA3"
             }
         },
         {
