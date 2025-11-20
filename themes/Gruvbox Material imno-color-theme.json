@@ -14,6 +14,7 @@
         "macro": "#d3869b",
         "namespace": "#d8a657",
         "variable": "#D4BE98",
+        "variable.typeHint": "#d8a657",
         "number": "#d3869b",
         "type": "#d8a657",
         "string": "#89B482",
@@ -644,7 +645,7 @@
         },
         {
             "name": "C red",
-            "scope": "storage.type.struct",
+            "scope": "storage.type.struct, storage.type.union.c",
             "settings": {
                 "foreground": "#ea6962"
             }
